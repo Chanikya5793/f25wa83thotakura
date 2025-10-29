@@ -7,7 +7,7 @@ var current = 25;
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   current = current * factor;
-  res.send(`Current is: ${current}`);
+  res.render('users', { title: 'Users', message: `Current is: ${current}` });
 });
 
 module.exports = router;

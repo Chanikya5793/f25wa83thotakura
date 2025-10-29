@@ -10,9 +10,9 @@ router.get('/', function(req, res, next) {
   var y = Math.log(x);
   
   // Format the response string
-  var response = `Math.log applied to ${x} is ${y}`;
+  var message = `Math.log applied to ${x} is ${y}`;
   
-  res.send(response);
+  res.render('computation', { title: 'Computation', message: message });
 });
 
 module.exports = router;
