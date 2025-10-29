@@ -3,3 +3,10 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  //- Navigation buttons to other pages
+  .nav-buttons
+    a.button(href='/') Home
+    a.button(href='/users') Users
+    a.button(href='/mydata') My Data
+    a.button(href='/computation') Computation

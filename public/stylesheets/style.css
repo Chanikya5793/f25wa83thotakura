@@ -6,3 +6,21 @@ body {
 a {
   color: #00B7FF;
 }
+
+/* Simple button styles for landing page navigation */
+.nav-buttons {
+  margin-top: 20px;
+}
+.nav-buttons .button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 14px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.nav-buttons .button:hover {
+  background: #0056b3;
+}
